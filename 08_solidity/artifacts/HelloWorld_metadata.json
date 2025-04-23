@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "log",
+						"type": "string"
+					}
+				],
+				"name": "log_string",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"08_solidity/test1.sol": "HelloWorld"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"08_solidity/test1.sol": {
+			"keccak256": "0x57b72f8e20acaefec42b0e86660afa0c68f8834867c1abb0f8588f2d9fa29b26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea70a353bf782c7953bb75dc21468481d57cf83eff220ed4231048384724be41",
+				"dweb:/ipfs/QmZuJ812KNx91HbzGJAKuDFhd14btGNPS4kWVEob4kHumc"
+			]
+		}
+	},
+	"version": 1
+}
