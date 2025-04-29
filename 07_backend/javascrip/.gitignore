@@ -1,0 +1,21 @@
+# Ignorar configuraciones de VSCode
+.vs/
+*.vsidx
+
+# Ignorar dependencias
+node_modules/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
+
+# Otros temporales
+*.swp
+*.tmp
+
+# Archivos de entorno
+.env
+
