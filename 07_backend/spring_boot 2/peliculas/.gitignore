@@ -1,0 +1,58 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignorar archivos de configuración del entorno
+.idea/
+*.iml
+
+# Ignorar claves privadas y archivos sensibles
+/src/main/resources/application-secret.properties
+
+# Ignorar compilados de Java
+/target/
+*.class
+
+# Ignorar backups y logs
+*.log
+*.tmp
+
+
+
+
+
+
+
+
+
+
