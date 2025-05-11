@@ -25,3 +25,14 @@ jobs:
         working-directory: 05_devops-automation/pipeline1
         run: mvn test
 
+
+
+      - name: Build Docker image
+        working-directory: 05_devops-automation/pipeline1
+        run: docker build -t my-app:${{ github.sha }} .
+
+
+
+
+
+
