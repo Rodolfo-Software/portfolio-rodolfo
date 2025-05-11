@@ -38,8 +38,8 @@ jobs:
       - name: Etiquetar y subir imagen a DockerHub
         working-directory: 05_devops-automation/pipeline1
         run: |
-          docker tag my-app:${{ github.sha }} rodolfodev/my-app:latest
-          docker push rodolfodev/my-app:latest
+          docker tag my-app:${{ github.sha }} rodolfodev1/my-app:latest
+          docker push rodolfodev1/my-app:latest
 
 
 
