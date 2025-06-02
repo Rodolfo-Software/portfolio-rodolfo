@@ -1,0 +1,72 @@
+task-manager/backend/taskmanager/src/main/resources/application.properties
+/target
+*.class
+*.log
+*.tmp
+*.iml
+*.db
+.DS_Store
+.idea/
+/.vscode/
+
+
+# Ignorar configuraciones del IDE
+.vscode/
+.vs/
+*.vsidx
+
+# Ignorar binarios y temporales
+/target
+*.log
+*.class
+*.tmp
+*.iml
+
+# Ignorar archivos de configuración sensibles
+**/application.properties
+
+
+
+# === Java (Spring Boot) ===
+target/
+*.class
+*.jar
+*.war
+*.iml
+*.log
+
+# === IDEs ===
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Maven Wrapper ===
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# === Environment variables ===
+.env
+*.env
+
+# === Node.js (React Frontend) ===
+node_modules/
+build/
+dist/
+
+# === Coverage / Reports ===
+coverage/
+*.lcov
+
+
+
+
+
+
+
